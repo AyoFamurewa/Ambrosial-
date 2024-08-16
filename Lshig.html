@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styli.css">
+  <title>Res Web</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="navbar">
+      <img src="img/13655593.png" class="logo">
+      <nav>
+        <ul id="menuList">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img src="img/9436193.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+    
+    <div class="content">
+      <div class="banner">
+        <h1>Ambroisal Cakes</h1>
+        <img src="img/chocolate-cake-with-whipped-cream-fruits_140725-2715.jpg" class="img">
+      </div>
+    </div>
+    
+    <div class="icons">
+      <img src="img/5968764.png">
+       <img src="img/2111463.png">
+    </div>
+    
+    
+    
+  </div>
+  
+  <script>
+  var menuList = document.getElementById("menuList");
+  
+  menuList.style.maxHeight = "0px";
+  
+  function togglemenu(){
+    if (menuList.style.maxHeight == "0px")
+    
+    {
+      menuList.style.maxHeight = "130px";
+    }
+    
+    else{
+      menuList.style.maxHeight = "0px";
+    }
+    
+  }
+  
+  
+  
+  </script>
+  
+  
+  
+</body>
+</html>
